@@ -615,5 +615,8 @@ public class ApplicationApiTest extends ControllerContainerTest {
         domain.admin(new AthensPrincipal(new AthensDomain(athensScrewdriverDomain), new UserId(screwdriverUserId)));
     }
 
-    private void addMockObservedApplicationCost(String tenant, String application, String instance) {}
+    private void addMockObservedApplicationCost(String tenant, String application, String instance) {
+        
+
+    }
 }
